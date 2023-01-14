@@ -15,7 +15,7 @@ echo "$result"
 
 function print_log() {
 DATE=$(date +"%Y-%m-%d %H:%M")
-echo "$DATE $@"
+echo "[$DATE] $@"
 }
 
 #shortest
